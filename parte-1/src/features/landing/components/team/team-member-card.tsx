@@ -12,7 +12,11 @@ export function TeamMemberCard({ member }: { member: TeamMember }) {
     >
       <div className='flex flex-col gap-7'>
         <div className='flex items-start gap-5'>
-          <TeamAvatar photoSrc={member.photo} crop={member.crop} />
+          <TeamAvatar
+            photoSrc={member.photo}
+            crop={member.crop}
+            photoAlt={`${member.name}, ${member.role}`}
+          />
           <div className='flex min-w-0 flex-1 flex-col gap-4'>
             <div className='flex justify-end'>
               <Link

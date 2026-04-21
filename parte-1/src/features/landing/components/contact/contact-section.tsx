@@ -138,7 +138,7 @@ export function ContactSection() {
             <div className="relative flex h-full w-full min-h-0 min-w-0 items-center justify-end overflow-hidden">
               <Image
                 src="/figma/contact/Illustration3.png"
-                alt=""
+                alt="Illustration inviting visitors to get in touch with Positivus"
                 width={692}
                 height={649}
                 sizes="(min-width: 1024px) 45vw, 100vw"

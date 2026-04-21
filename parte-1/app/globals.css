@@ -15,7 +15,6 @@
   --font-sans: var(--font-space-grotesk);
   --font-mono: var(--font-space-grotesk);
 
-  /* Design text styles: default = mobile (mob), *-dsk = desktop from `md:` up */
   --text-type-h1: 43px;
   --text-type-h1--line-height: normal;
   --text-type-h1--font-weight: 500;

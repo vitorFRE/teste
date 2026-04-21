@@ -7,14 +7,14 @@ const MASK_SIZE = "97.824px 97.823px";
 type TeamAvatarProps = {
   photoSrc: string;
   crop: TeamPhotoCrop;
+  photoAlt: string;
 };
 
-export function TeamAvatar({ photoSrc, crop }: TeamAvatarProps) {
+export function TeamAvatar({ photoSrc, crop, photoAlt }: TeamAvatarProps) {
   const maskUrl = `url(${TEAM_ASSETS.mask})`;
 
   return (
     <div className="relative size-[98px] shrink-0 overflow-visible">
-      {/* Figma: Vector por baixo; foto mascarada por cima */}
       <Image
         src={TEAM_ASSETS.frame}
         alt=""
@@ -42,7 +42,7 @@ export function TeamAvatar({ photoSrc, crop }: TeamAvatarProps) {
       >
         <Image
           src={photoSrc}
-          alt=""
+          alt={photoAlt}
           width={crop.photoWidth}
           height={crop.photoHeight}
           className="size-full object-cover"

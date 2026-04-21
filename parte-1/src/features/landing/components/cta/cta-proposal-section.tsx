@@ -38,7 +38,7 @@ export function CtaProposalSection() {
             <div className='relative flex w-full max-w-[359px] items-center justify-center overflow-visible px-4 pb-6 lg:absolute lg:inset-y-0 lg:right-0 lg:w-[359px] lg:max-w-[359px] lg:items-center lg:justify-end lg:px-0 lg:pb-0'>
               <Image
                   src='/figma/illustrations/Illustration2.png'
-                alt=''
+                alt='Illustration of a team discussing a marketing proposal'
                 width={359}
                 height={394}
                 className='h-auto w-full max-w-[min(359px,100%)] object-contain lg:h-[394.27px] lg:w-[359px] lg:max-w-[359px]'

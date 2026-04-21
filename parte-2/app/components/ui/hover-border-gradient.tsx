@@ -6,10 +6,8 @@ import { cn } from "@/libs/utils";
 
 type Direction = "TOP" | "LEFT" | "BOTTOM" | "RIGHT";
 
-/** Cor de marca (ciano) — #7EE7E7 */
 const CYAN = "126, 231, 231";
 
-/** Gradientes mais largos e opacos para o brilho na borda ficar visível */
 const movingMap: Record<Direction, string> = {
   TOP: `radial-gradient(52% 85% at 50% 0%, rgba(${CYAN}, 1) 0%, rgba(${CYAN}, 0.5) 42%, rgba(${CYAN}, 0) 100%)`,
   LEFT: `radial-gradient(42% 72% at 0% 50%, rgba(${CYAN}, 1) 0%, rgba(${CYAN}, 0.5) 42%, rgba(${CYAN}, 0) 100%)`,
@@ -33,7 +31,6 @@ export function HoverBorderGradient({
     as?: React.ElementType;
     containerClassName?: string;
     className?: string;
-    /** Fundo do conteúdo e da máscara interna (ex.: bg-brand-cyan) */
     surfaceClassName?: string;
     duration?: number;
     clockwise?: boolean;

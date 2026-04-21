@@ -78,6 +78,9 @@ export function ServiceCard({
         ? "bg-brand-lime"
         : "bg-brand-dark";
 
+  const serviceLabel = `${title[0]} ${title[1]}`.replace(/\s+/g, " ").trim();
+  const illustrationAlt = `Illustration for ${serviceLabel} service`;
+
   const line = (text: string, style: TitleLineStyle) => (
     <span
       className={cn(
@@ -112,7 +115,7 @@ export function ServiceCard({
         <div className={cn(flipImage && "-scale-y-100 rotate-180")}>
           <Image
             src={imageSrc}
-            alt=""
+            alt={illustrationAlt}
             width={imageWidth}
             height={imageHeight}
             className={cn("h-auto w-full object-contain", imageClassName)}

@@ -29,7 +29,7 @@ export function Hero() {
           >
             <Image
               src="/figma/illustrations/Illustration.svg"
-              alt=""
+              alt="Illustration of browser windows and analytics representing digital marketing and online growth"
               width={601}
               height={515}
               priority

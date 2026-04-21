@@ -9,7 +9,6 @@ import { buttonVariants } from "@/src/features/shared/components/ui/button";
 
 import { HEADER_NAV_LINKS } from "./nav-links";
 
-/** Tabler Icons: outline / menu-2 (MIT) */
 function IconMenu2({ className }: { className?: string }) {
   return (
     <svg

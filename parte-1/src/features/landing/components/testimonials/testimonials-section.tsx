@@ -9,9 +9,7 @@ import { SectionHeading } from "@/src/features/landing/components/common/section
 
 const ASSETS = {
   bubble: "/figma/testimonials/bubble.svg",
-  /** Os dois exports do Figma são o mesmo traço (seta para a esquerda); a direita espelha no botão. */
   arrow: "/figma/testimonials/arrow-left.svg",
-  /** Mesmo traço que `public/figma/testimonials/star.svg` — inline para `currentColor` (ativo = primária). */
   starPath:
     "M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z",
 } as const;
