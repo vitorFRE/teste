@@ -1,9 +1,7 @@
 # Teste técnico
 
-Monorepo com **`/parte-1`** (Figma → código) e **`/parte-2`** (hero landing Python/IA). **Stack:** Next.js 16, React 19, TypeScript, Tailwind CSS 4, Motion; na parte 2 também `@phosphor-icons/react`.
+Monorepo **`/parte-1`** (Figma → código) e **`/parte-2`** (landing Python/IA). **Stack:** Next.js 16, React 19, TypeScript, Tailwind 4, Motion; parte 2: Phosphor, GSAP (`@gsap/react`).
 
-**Deploy:** [site — parte 1](https://teste-tau-black.vercel.app/) · [hero — parte 2](https://teste-4iww.vercel.app/)
+**Deploy:** [parte 1](https://teste-tau-black.vercel.app/) · [parte 2](https://teste-4iww.vercel.app/)
 
-**IA:** Cursor + **MCP Figma** para extrair a base do layout do arquivo. A IA ajudou mais no **layout inicial** (estrutura e blocos); **ajustes manuais** em espaçamentos, tipografia, fontes e imagens até bater com o design (na parte 2, hero e refinamento sem Figma fixo).
-
-**SEO:** usei a skill **seo-audit** na `parte-1` para listar pontos de SEO faltando.
+**IA:** Cursor + MCP Figma no layout base; ajustes manuais no acabamento. **Parte 2 —** skills em `parte-2/.agents/skills/`: **design-taste-frontend**, **high-end-visual-design**, **redesign-existing-projects**, **gsap-core**. **Parte 1 —** skill **seo-audit** (SEO).
